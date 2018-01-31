@@ -109,4 +109,5 @@ if __name__ == "__main__":
     # On the Pi, you need to run the app using this command to make sure it
     # listens for requests outside of the device.
     # app.run(host='0.0.0.0')
+    print "vahid rasouli"
     app.run(host='0.0.0.0', port=5000, debug=True)
